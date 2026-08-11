@@ -9,7 +9,7 @@
 <body>
   <section>
     <nav>
-      <img src="./assets/FES.svg" class="logo" alt="">
+      <img class="logo" src="./assets/FES.svg" alt="">
       <ul>
         <li><a href="#about">About</a></li>
         <li><a href="#discord">Discord</a></li>
@@ -18,13 +18,13 @@
     </nav>
 <header>
   <div class="row">
-  <div>
+    <div class="home__description">
     <h1>Best place to learn frontend</h1>
 <p class="subheader">Go from being an absolute beginner to pro with a simplified process</p>
 <button>Start now</button>
 </div>
-    <figure>
-      <img src="./assets/laptop.png" alt="Home page image">
+    <figure class="home__img--wrapper">
+      <img class="home__img" src="./assets/laptop.png" alt="" />
     </figure>
     </div>
    </header>
@@ -33,35 +33,41 @@
   <main>
     <section id="about">
       <h2>About</h2>
-      <div class="row">
       <div class="section__description">
         <div class="section__description--wrapper">
           <p class="section__description--para">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        <p class="section__description--para"></p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus saepe quis adipisci cumque nisi! Eum
+            aspernatur officia aut voluptates ipsum, deserunt debitis numquam iusto accusamus. Incidunt repellat nulla
+            quam numquam?
+          </p>
+          <p class="section__description--para">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus saepe quis adipisci cumque nisi! Eum
+            aspernatur officia aut voluptates ipsum, deserunt debitis numquam iusto accusamus. Incidunt repellat nulla
+            quam numquam?
+          </p>
       </div>
       <figure class="about__img--wrapper">
         <img src="./assets/about.jpg" alt="About image">
       </figure>
       </div>
-      </div>
     </section>
 
     <section id="discord">
       <h2>Discord</h2>
-      <div class="row">
       <div class="section__description">
        <figure class="about__img--wrapper">
         <img src="./assets/discord.png" alt="Discord image">
       </figure>
-      <div>
-        <p class="section__description--para"></p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        <p class="section__description--para"></p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      </div>
+      <div class="section__description--wrapper">
+          <p class="section__description--para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur
+            tempore veniam nostrum temporibus
+            doloribus, dolores inventore. Eveniet laboriosam magni blanditiis explicabo. Quidem ipsum nostrum sed iste,
+          <p class="section__description--para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur
+            tempore veniam nostrum temporibus
+            doloribus, dolores inventore. Eveniet laboriosam magni blanditiis explicabo. Quidem ipsum nostrum sed iste,
+            saepe fugiat natus hic.</p>
      </div>
+
      </div>
     </section>
 
@@ -71,7 +77,7 @@
         <span>Email</span>
         <input type="email" placeholder="jane@example.com">
         <span>Message</span>
-        <textarea type="text" placeholder="Your message here..."></textarea>
+        <textarea name="" id="" cols="30" rows="10"  placeholder="Your message here..."></textarea>
         <button type="submit">Contact Us</button>
       </form>
     </section>
